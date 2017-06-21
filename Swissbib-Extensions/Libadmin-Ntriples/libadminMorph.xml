@@ -126,7 +126,7 @@
     </rules>
 
     <maps>
-        <filemap name="cantons" files="cantons.txt"
+	    <filemap name="cantons" files="./cantons.txt"
                  separator="\t"/>
     </maps>
 
