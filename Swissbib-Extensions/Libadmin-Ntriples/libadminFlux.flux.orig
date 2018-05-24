@@ -1,0 +1,13 @@
+"https://www.swissbib.ch/mapportal.json"|
+open-http(encoding="UTF-8")|
+<<<<<<< HEAD
+read-json-object|
+decode-json|
+=======
+read-json|
+>>>>>>> 85883d43ae22b7f0594bc0a989b2854d82353fe3
+morph(FLUX_DIR + "libadminMorph.xml")|
+split-entities|
+change-id|
+encode-ntriples|
+write(FLUX_DIR + "output.nt", separator="");
